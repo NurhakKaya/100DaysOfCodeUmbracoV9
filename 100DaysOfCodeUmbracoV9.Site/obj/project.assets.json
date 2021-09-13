@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Bergmania.OpenStreetMap/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Umbraco.Cms.Web.BackOffice": "9.0.0-beta004",
+          "Umbraco.Cms.Web.Website": "9.0.0-beta004"
+        },
+        "compile": {
+          "lib/net5.0/Bergmania.OpenStreetMap.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Bergmania.OpenStreetMap.dll": {}
+        },
+        "build": {
+          "buildTransitive/Bergmania.OpenStreetMap.targets": {}
+        }
+      },
       "CSharpTest.Net.Collections-NetStd2/14.906.1403.1084": {
         "type": "package",
         "compile": {
@@ -2906,10 +2922,51 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Umbraco.TheStarterKit/9.0.0-rc002": {
+        "type": "package",
+        "dependencies": {
+          "Bergmania.OpenStreetMap": "1.0.0",
+          "Umbraco.Cms.Web.BackOffice": "9.0.0-rc003"
+        },
+        "compile": {
+          "lib/net5.0/Umbraco.SampleSite.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Umbraco.SampleSite.dll": {}
+        },
+        "build": {
+          "buildTransitive/Umbraco.TheStarterKit.targets": {}
+        }
       }
     }
   },
   "libraries": {
+    "Bergmania.OpenStreetMap/1.0.0": {
+      "sha512": "zV8LdRL41XkIWjLsWkYPPgz645XVHEiXtYij0bzTHJ5/81aFQ7ydygdPLOe87H/DIVxgSMJ7Hi3aO7ngZeOoQQ==",
+      "type": "package",
+      "path": "bergmania.openstreetmap/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "App_Plugins/Bergmania.OpenStreetMap/bergmania.openstreetmap.controller.js",
+        "App_Plugins/Bergmania.OpenStreetMap/bergmania.openstreetmap.html",
+        "App_Plugins/Bergmania.OpenStreetMap/lib/leaflet/images/layers-2x.png",
+        "App_Plugins/Bergmania.OpenStreetMap/lib/leaflet/images/layers.png",
+        "App_Plugins/Bergmania.OpenStreetMap/lib/leaflet/images/marker-icon-2x.png",
+        "App_Plugins/Bergmania.OpenStreetMap/lib/leaflet/images/marker-icon.png",
+        "App_Plugins/Bergmania.OpenStreetMap/lib/leaflet/images/marker-shadow.png",
+        "App_Plugins/Bergmania.OpenStreetMap/lib/leaflet/leaflet-src.esm.js",
+        "App_Plugins/Bergmania.OpenStreetMap/lib/leaflet/leaflet-src.esm.js.map",
+        "App_Plugins/Bergmania.OpenStreetMap/lib/leaflet/leaflet-src.js",
+        "App_Plugins/Bergmania.OpenStreetMap/lib/leaflet/leaflet.css",
+        "App_Plugins/Bergmania.OpenStreetMap/package.manifest",
+        "bergmania.openstreetmap.1.0.0.nupkg.sha512",
+        "bergmania.openstreetmap.nuspec",
+        "buildTransitive/Bergmania.OpenStreetMap.targets",
+        "lib/net5.0/Bergmania.OpenStreetMap.dll"
+      ]
+    },
     "CSharpTest.Net.Collections-NetStd2/14.906.1403.1084": {
       "sha512": "g3QSH0PMiO+f2C6Za+uUvcdihnVs5IFbZ2cnKjCYA19l8en3fVe/Jl0qQS2te1xJzEOrY4ccen5/MY/QVoamcQ==",
       "type": "package",
@@ -12026,11 +12083,25 @@
         "umbraco.cms.web.website.9.0.0-rc003.nupkg.sha512",
         "umbraco.cms.web.website.nuspec"
       ]
+    },
+    "Umbraco.TheStarterKit/9.0.0-rc002": {
+      "sha512": "YlKPWtXEgZ5asYGNoo8ZnJXf92IHqqR/D2SdMjEqeuRQ8pIgaxjzjqWYsaCTdcBEha974Eh5ORbspr1ZbPDvpQ==",
+      "type": "package",
+      "path": "umbraco.thestarterkit/9.0.0-rc002",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildTransitive/Umbraco.TheStarterKit.targets",
+        "lib/net5.0/Umbraco.SampleSite.dll",
+        "umbraco.thestarterkit.9.0.0-rc002.nupkg.sha512",
+        "umbraco.thestarterkit.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Umbraco.Cms >= 9.0.0-rc003"
+      "Umbraco.Cms >= 9.0.0-rc003",
+      "Umbraco.TheStarterKit >= 9.0.0-rc002"
     ]
   },
   "packageFolders": {
@@ -12060,8 +12131,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "E:\\NuGet": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/felinesoft/_packaging/Felinesoft-Master-Feed@Local/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -12082,6 +12152,10 @@
           "Umbraco.Cms": {
             "target": "Package",
             "version": "[9.0.0-rc003, )"
+          },
+          "Umbraco.TheStarterKit": {
+            "target": "Package",
+            "version": "[9.0.0-rc002, )"
           }
         },
         "imports": [
@@ -12105,5 +12179,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Bergmania.OpenStreetMap 1.0.0 depends on Umbraco.Cms.Web.Website (>= 9.0.0-beta004) but Umbraco.Cms.Web.Website 9.0.0-beta004 was not found. An approximate best match of Umbraco.Cms.Web.Website 9.0.0-rc001 was resolved.",
+      "libraryId": "Umbraco.Cms.Web.Website",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

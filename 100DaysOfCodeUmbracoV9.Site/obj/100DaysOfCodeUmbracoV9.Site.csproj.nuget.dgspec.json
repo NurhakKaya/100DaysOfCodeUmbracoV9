@@ -27,8 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "E:\\NuGet": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/felinesoft/_packaging/Felinesoft-Master-Feed@Local/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -49,6 +48,10 @@
             "Umbraco.Cms": {
               "target": "Package",
               "version": "[9.0.0-rc003, )"
+            },
+            "Umbraco.TheStarterKit": {
+              "target": "Package",
+              "version": "[9.0.0-rc002, )"
             }
           },
           "imports": [

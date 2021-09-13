@@ -34,6 +34,7 @@
       "100DaysOfCodeUmbracoV9.Site/1.0.0": {
         "dependencies": {
           "Umbraco.Cms": "9.0.0-rc003",
+          "Umbraco.TheStarterKit": "9.0.0-rc002",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -314,6 +315,21 @@
         },
         "compile": {
           "100DaysOfCodeUmbracoV9.Site.dll": {}
+        }
+      },
+      "Bergmania.OpenStreetMap/1.0.0": {
+        "dependencies": {
+          "Umbraco.Cms.Web.BackOffice": "9.0.0-rc003",
+          "Umbraco.Cms.Web.Website": "9.0.0-rc003"
+        },
+        "runtime": {
+          "lib/net5.0/Bergmania.OpenStreetMap.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Bergmania.OpenStreetMap.dll": {}
         }
       },
       "CSharpTest.Net.Collections-NetStd2/14.906.1403.1084": {
@@ -2520,6 +2536,21 @@
           "lib/net5.0/Umbraco.Web.Website.dll": {}
         }
       },
+      "Umbraco.TheStarterKit/9.0.0-rc002": {
+        "dependencies": {
+          "Bergmania.OpenStreetMap": "1.0.0",
+          "Umbraco.Cms.Web.BackOffice": "9.0.0-rc003"
+        },
+        "runtime": {
+          "lib/net5.0/Umbraco.SampleSite.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Umbraco.SampleSite.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -4172,6 +4203,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Bergmania.OpenStreetMap/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zV8LdRL41XkIWjLsWkYPPgz645XVHEiXtYij0bzTHJ5/81aFQ7ydygdPLOe87H/DIVxgSMJ7Hi3aO7ngZeOoQQ==",
+      "path": "bergmania.openstreetmap/1.0.0",
+      "hashPath": "bergmania.openstreetmap.1.0.0.nupkg.sha512"
+    },
     "CSharpTest.Net.Collections-NetStd2/14.906.1403.1084": {
       "type": "package",
       "serviceable": true,
@@ -5564,6 +5602,13 @@
       "sha512": "sha512-CTxP6zyzaZyhTRAU3mSNeArk1/EW/iT32szZO3RR8wSqs7Z12RelRwqrw5JyhQ7eJHBZt3XEPsJExclv8kFDcQ==",
       "path": "umbraco.cms.web.website/9.0.0-rc003",
       "hashPath": "umbraco.cms.web.website.9.0.0-rc003.nupkg.sha512"
+    },
+    "Umbraco.TheStarterKit/9.0.0-rc002": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YlKPWtXEgZ5asYGNoo8ZnJXf92IHqqR/D2SdMjEqeuRQ8pIgaxjzjqWYsaCTdcBEha974Eh5ORbspr1ZbPDvpQ==",
+      "path": "umbraco.thestarterkit/9.0.0-rc002",
+      "hashPath": "umbraco.thestarterkit.9.0.0-rc002.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

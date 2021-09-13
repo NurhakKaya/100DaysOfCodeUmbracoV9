@@ -96,6 +96,15 @@ Umbraco.Cms.Core.Actions.ActionSort, Umbraco.Core, Version=9.0.0.0, Culture=neut
 Umbraco.Cms.Core.Actions.ActionToPublish, Umbraco.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.Actions.ActionUnpublish, Umbraco.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.Actions.ActionUpdate, Umbraco.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.SampleSite.ContactFormController, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.SampleSite.StarterKitComposer, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.SampleSite.Migrations.ImportPackageXmlMigration, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.SampleSite.Migrations.PublishRootBranchPostMigration, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.SampleSite.Migrations.StarterKitPackageMigrationPlan, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.SampleSite.Controllers.LessonsController, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Bergmania.OpenStreetMap.OpenStreetMapComposer, Bergmania.OpenStreetMap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Bergmania.OpenStreetMap.OpenStreetMapPropertyEditor, Bergmania.OpenStreetMap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Bergmania.OpenStreetMap.OpenStreetMapPropertyValueConverter, Bergmania.OpenStreetMap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Web.Website.Controllers.UmbLoginController, Umbraco.Web.Website, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Web.Website.Controllers.UmbLoginStatusController, Umbraco.Web.Website, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Web.Website.Controllers.UmbProfileController, Umbraco.Web.Website, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -306,6 +315,7 @@ Umbraco.Cms.Core.PropertyEditors.ValueConverters.SliderValueConverter, Umbraco.C
 Umbraco.Cms.Core.PropertyEditors.ValueConverters.TagsValueConverter, Umbraco.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.PropertyEditors.ValueConverters.UploadPropertyConverter, Umbraco.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.PropertyEditors.ValueConverters.YesNoValueConverter, Umbraco.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Bergmania.OpenStreetMap.OpenStreetMapPropertyValueConverter, Bergmania.OpenStreetMap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.PropertyEditors.ValueConverters.BlockListPropertyValueConverter, Umbraco.Infrastructure, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.PropertyEditors.ValueConverters.ColorPickerValueConverter, Umbraco.Infrastructure, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.PropertyEditors.ValueConverters.FlexibleDropdownPropertyValueConverter, Umbraco.Infrastructure, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -321,6 +331,7 @@ Umbraco.Cms.Core.PropertyEditors.ValueConverters.RteMacroRenderingValueConverter
 
 Umbraco.Cms.Web.Common.Controllers.UmbracoApiController
 
+Umbraco.SampleSite.Controllers.LessonsController, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Web.BackOffice.Trees.ApplicationTreeController, Umbraco.Web.BackOffice, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Web.BackOffice.Trees.ContentBlueprintTreeController, Umbraco.Web.BackOffice, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Web.BackOffice.Trees.ContentTreeController, Umbraco.Web.BackOffice, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -396,6 +407,7 @@ Umbraco.Cms.Web.BackOffice.Controllers.UsersController, Umbraco.Web.BackOffice, 
 
 Umbraco.Cms.Web.Website.Controllers.SurfaceController
 
+Umbraco.SampleSite.ContactFormController, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Web.Website.Controllers.UmbLoginController, Umbraco.Web.Website, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Web.Website.Controllers.UmbLoginStatusController, Umbraco.Web.Website, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Web.Website.Controllers.UmbProfileController, Umbraco.Web.Website, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -403,6 +415,8 @@ Umbraco.Cms.Web.Website.Controllers.UmbRegisterController, Umbraco.Web.Website, 
 
 Umbraco.Cms.Core.Composing.IComposer
 
+Umbraco.SampleSite.StarterKitComposer, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Bergmania.OpenStreetMap.OpenStreetMapComposer, Bergmania.OpenStreetMap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Cms.Core.Cache.ICacheRefresher
 
@@ -440,6 +454,7 @@ Umbraco.Cms.Core.PropertyEditors.ParameterEditors.MultiplePropertyGroupParameter
 Umbraco.Cms.Core.PropertyEditors.ParameterEditors.MultiplePropertyTypeParameterEditor, Umbraco.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.PropertyEditors.ParameterEditors.PropertyGroupParameterEditor, Umbraco.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.PropertyEditors.ParameterEditors.PropertyTypeParameterEditor, Umbraco.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+Bergmania.OpenStreetMap.OpenStreetMapPropertyEditor, Bergmania.OpenStreetMap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.PropertyEditors.BlockListPropertyEditor, Umbraco.Infrastructure, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.PropertyEditors.CheckBoxListPropertyEditor, Umbraco.Infrastructure, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Cms.Core.PropertyEditors.ColorPickerPropertyEditor, Umbraco.Infrastructure, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -525,4 +540,5 @@ Umbraco.Cms.Web.BackOffice.Trees.TemplatesTreeController, Umbraco.Web.BackOffice
 
 Umbraco.Cms.Core.Packaging.PackageMigrationPlan
 
+Umbraco.SampleSite.Migrations.StarterKitPackageMigrationPlan, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 

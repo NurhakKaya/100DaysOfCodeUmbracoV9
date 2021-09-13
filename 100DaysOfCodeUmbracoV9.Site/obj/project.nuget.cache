@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZVJefHHVFEisQazgykqFMRjmVPnxP2FsJ+1NRrdJdAdBgv60/wU6LpIIDLQBoSzXesXcAK5hmPKKZjfoSpw7Ug==",
+  "dgSpecHash": "Aypo+Nkz01rz1ZZhA4LhAIDgvkek5d985cfEEgLeJPqd8KQfSEjCYr5Mi1JqZQLorb182ScnS7NbkfoLhZ966A==",
   "success": true,
   "projectFilePath": "E:\\git\\repos\\100DaysOfCodeUmbracoV9\\100DaysOfCodeUmbracoV9.Site\\100DaysOfCodeUmbracoV9.Site.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\bergmania.openstreetmap\\1.0.0\\bergmania.openstreetmap.1.0.0.nupkg.sha512",
     "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\csharptest.net.collections-netstd2\\14.906.1403.1084\\csharptest.net.collections-netstd2.14.906.1403.1084.nupkg.sha512",
     "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\dazinator.extensions.fileproviders\\2.0.0\\dazinator.extensions.fileproviders.2.0.0.nupkg.sha512",
     "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\dotnet.glob\\3.1.0\\dotnet.glob.3.1.0.nupkg.sha512",
@@ -202,7 +203,19 @@
     "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\umbraco.cms.staticassets\\9.0.0-rc003\\umbraco.cms.staticassets.9.0.0-rc003.nupkg.sha512",
     "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\umbraco.cms.web.backoffice\\9.0.0-rc003\\umbraco.cms.web.backoffice.9.0.0-rc003.nupkg.sha512",
     "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\umbraco.cms.web.common\\9.0.0-rc003\\umbraco.cms.web.common.9.0.0-rc003.nupkg.sha512",
-    "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\umbraco.cms.web.website\\9.0.0-rc003\\umbraco.cms.web.website.9.0.0-rc003.nupkg.sha512"
+    "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\umbraco.cms.web.website\\9.0.0-rc003\\umbraco.cms.web.website.9.0.0-rc003.nupkg.sha512",
+    "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\umbraco.thestarterkit\\9.0.0-rc002\\umbraco.thestarterkit.9.0.0-rc002.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Bergmania.OpenStreetMap 1.0.0 depends on Umbraco.Cms.Web.Website (>= 9.0.0-beta004) but Umbraco.Cms.Web.Website 9.0.0-beta004 was not found. An approximate best match of Umbraco.Cms.Web.Website 9.0.0-rc001 was resolved.",
+      "libraryId": "Umbraco.Cms.Web.Website",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

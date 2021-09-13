@@ -464,3 +464,17 @@ E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0
 E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\umbraco\UmbracoBackOffice\Preview.cshtml
 E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\umbraco\UmbracoInstall\Index.cshtml
 E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\umbraco\UmbracoWebsite\NoNodes.cshtml
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\Bergmania.OpenStreetMap.dll
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\Umbraco.SampleSite.dll
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\bergmania.openstreetmap.controller.js
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\bergmania.openstreetmap.html
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\images\layers-2x.png
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\images\layers.png
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\images\marker-icon-2x.png
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\images\marker-icon.png
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\images\marker-shadow.png
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\leaflet-src.esm.js
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\leaflet-src.esm.js.map
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\leaflet-src.js
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\leaflet.css
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\package.manifest
