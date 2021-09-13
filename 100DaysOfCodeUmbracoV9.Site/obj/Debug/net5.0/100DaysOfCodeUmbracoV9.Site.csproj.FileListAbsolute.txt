@@ -478,3 +478,5 @@ E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0
 E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\leaflet-src.js
 E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\lib\leaflet\leaflet.css
 E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\App_Plugins\Bergmania.OpenStreetMap\package.manifest
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\100DaysOfCodeUmbracoV9.Core.dll
+E:\git\repos\100DaysOfCodeUmbracoV9\100DaysOfCodeUmbracoV9.Site\bin\Debug\net5.0\100DaysOfCodeUmbracoV9.Core.pdb

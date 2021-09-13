@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Uc1+KvRxSuMfa6tKmAobbavl4LAUex3t4xmKVieIGh6H14cCGYFQBkL0j44yEmwbGD0JeuTtK+ypQXOLhnrHbw==",
+  "dgSpecHash": "mCDmNAsqa125v943IxlZdVaND1ERnGxLwuqrzxmEidUJqGjlQwEmsAZqSeW5on8zVsiNZLztihh2TzjMKJRuDw==",
   "success": true,
   "projectFilePath": "E:\\git\\repos\\100DaysOfCodeUmbracoV9\\100DaysOfCodeUmbracoV9.Site\\100DaysOfCodeUmbracoV9.Site.csproj",
   "expectedPackageFiles": [
@@ -207,6 +207,16 @@
     "C:\\Users\\Nurhak.Kaya\\.nuget\\packages\\umbraco.thestarterkit\\9.0.0-rc002\\umbraco.thestarterkit.9.0.0-rc002.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Bergmania.OpenStreetMap 1.0.0 depends on Umbraco.Cms.Web.BackOffice (>= 9.0.0-beta004) but Umbraco.Cms.Web.BackOffice 9.0.0-beta004 was not found. An approximate best match of Umbraco.Cms.Web.BackOffice 9.0.0-rc001 was resolved.",
+      "libraryId": "Umbraco.Cms.Web.BackOffice",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
     {
       "code": "NU1603",
       "level": "Warning",

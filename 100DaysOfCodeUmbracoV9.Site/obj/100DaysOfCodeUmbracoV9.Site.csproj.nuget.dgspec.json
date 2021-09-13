@@ -46,6 +46,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Bergmania.OpenStreetMap": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Umbraco.Cms.Web.Website": {
               "target": "Package",
               "version": "[9.0.0-rc003, )"

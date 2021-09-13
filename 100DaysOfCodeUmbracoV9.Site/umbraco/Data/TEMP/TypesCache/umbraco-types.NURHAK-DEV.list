@@ -542,3 +542,9 @@ Umbraco.Cms.Core.Packaging.PackageMigrationPlan
 
 Umbraco.SampleSite.Migrations.StarterKitPackageMigrationPlan, Umbraco.SampleSite, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
 
+Umbraco.Cms.Core.Models.PublishedContent.PublishedElementModel
+
+
+Umbraco.Cms.Core.Models.PublishedContent.PublishedContentModel
+
+

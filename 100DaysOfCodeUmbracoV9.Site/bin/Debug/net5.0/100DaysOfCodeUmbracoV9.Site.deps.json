@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "100DaysOfCodeUmbracoV9.Site/1.0.0": {
         "dependencies": {
+          "100DaysOfCodeUmbracoV9.Core": "1.0.0",
           "Umbraco.Cms": "9.0.0-rc003",
           "Umbraco.TheStarterKit": "9.0.0-rc002",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -2549,6 +2550,18 @@
         },
         "compile": {
           "lib/net5.0/Umbraco.SampleSite.dll": {}
+        }
+      },
+      "100DaysOfCodeUmbracoV9.Core/1.0.0": {
+        "dependencies": {
+          "Bergmania.OpenStreetMap": "1.0.0",
+          "Umbraco.Cms.Web.Website": "9.0.0-rc003"
+        },
+        "runtime": {
+          "100DaysOfCodeUmbracoV9.Core.dll": {}
+        },
+        "compile": {
+          "100DaysOfCodeUmbracoV9.Core.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -5609,6 +5622,11 @@
       "sha512": "sha512-YlKPWtXEgZ5asYGNoo8ZnJXf92IHqqR/D2SdMjEqeuRQ8pIgaxjzjqWYsaCTdcBEha974Eh5ORbspr1ZbPDvpQ==",
       "path": "umbraco.thestarterkit/9.0.0-rc002",
       "hashPath": "umbraco.thestarterkit.9.0.0-rc002.nupkg.sha512"
+    },
+    "100DaysOfCodeUmbracoV9.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

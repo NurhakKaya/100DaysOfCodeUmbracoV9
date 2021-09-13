@@ -2943,6 +2943,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Bergmania.OpenStreetMap": "1.0.0",
           "Umbraco.Cms.Web.Website": "9.0.0-rc003"
         },
         "compile": {
@@ -12205,6 +12206,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Bergmania.OpenStreetMap 1.0.0 depends on Umbraco.Cms.Web.BackOffice (>= 9.0.0-beta004) but Umbraco.Cms.Web.BackOffice 9.0.0-beta004 was not found. An approximate best match of Umbraco.Cms.Web.BackOffice 9.0.0-rc001 was resolved.",
+      "libraryId": "Umbraco.Cms.Web.BackOffice",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
     {
       "code": "NU1603",
       "level": "Warning",
