@@ -23,6 +23,12 @@
         <Content Remove="umbraco/mediacache/**" />
     </ItemGroup>
 
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\100DaysOfCodeUmbracoV9.Core\100DaysOfCodeUmbracoV9.Core.csproj" />
+    </ItemGroup>
+
     <!-- Set this to true if ModelsBuilder mode is not InMemoryAuto-->
     <PropertyGroup>
         <RazorCompileOnBuild>false</RazorCompileOnBuild>

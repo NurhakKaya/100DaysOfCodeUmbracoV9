@@ -2938,6 +2938,19 @@
         "build": {
           "buildTransitive/Umbraco.TheStarterKit.targets": {}
         }
+      },
+      "100DaysOfCodeUmbracoV9.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Umbraco.Cms.Web.Website": "9.0.0-rc003"
+        },
+        "compile": {
+          "bin/placeholder/100DaysOfCodeUmbracoV9.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/100DaysOfCodeUmbracoV9.Core.dll": {}
+        }
       }
     }
   },
@@ -12096,10 +12109,16 @@
         "umbraco.thestarterkit.9.0.0-rc002.nupkg.sha512",
         "umbraco.thestarterkit.nuspec"
       ]
+    },
+    "100DaysOfCodeUmbracoV9.Core/1.0.0": {
+      "type": "project",
+      "path": "../100DaysOfCodeUmbracoV9.Core/100DaysOfCodeUmbracoV9.Core.csproj",
+      "msbuildProject": "../100DaysOfCodeUmbracoV9.Core/100DaysOfCodeUmbracoV9.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "100DaysOfCodeUmbracoV9.Core >= 1.0.0",
       "Umbraco.Cms >= 9.0.0-rc003",
       "Umbraco.TheStarterKit >= 9.0.0-rc002"
     ]
@@ -12131,12 +12150,17 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "E:\\NuGet": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/felinesoft/_packaging/Felinesoft-Master-Feed@Local/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\git\\repos\\100DaysOfCodeUmbracoV9\\100DaysOfCodeUmbracoV9.Core\\100DaysOfCodeUmbracoV9.Core.csproj": {
+              "projectPath": "E:\\git\\repos\\100DaysOfCodeUmbracoV9\\100DaysOfCodeUmbracoV9.Core\\100DaysOfCodeUmbracoV9.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
